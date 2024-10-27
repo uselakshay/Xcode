@@ -12,6 +12,7 @@ int main(){
     scanf("%d",&t1.h);
     
     printf("\n Input number of Minutes");
+    
     scanf("%d",&t1.m);
     
     printf("\n Input number of Seconds");
