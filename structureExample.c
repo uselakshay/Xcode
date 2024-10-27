@@ -17,9 +17,28 @@ int main(){
     printf("\n Input number of Seconds");
     scanf("%d",&t1.s);
     
-    printf("\n T1 values %d hours ,%d Minutes and %d Seconds",t1.h,t1.m,t1.s);
-    // printf("Type T2 values for hours , mintues and seconds");
-    // scanf("Hours: %d Minutes: %d Seconds : %d",&t2.h,&t2.m,&t2.s);
+    // t2 values
+    printf("\n Type T2 values ");
+    
+    printf("\n Input number of Hours");
+    scanf("%d",&t2.h);
+    
+    printf("\n Input number of Minutes");
+    scanf("%d",&t2.m);
+    
+    printf("\n Input number of Seconds");
+    scanf("%d",&t2.s);
+    
+    
+    printf("\n T2 values %d hours ,%d Minutes and %d Seconds",t2.h,t2.m,t2.s);
+
+    // trying to do sum
+    int hours=t1.h+t2.h;
+    int minutes = t1.m+t2.m;
+    int seconds = t1.s+t2.s;
+    
+    printf("\n Total sum of hours is %d , minutes is %d and seconds is %d",hours,minutes,seconds);
+    
     
     return 0;
 }
